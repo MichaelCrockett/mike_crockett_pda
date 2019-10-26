@@ -28,7 +28,7 @@ def self.cards_total(cards)
   total # the variable named total should be set to = 0
   for card in cards
     total += card.value # this for loop should be ended
-    return "You have a total of" + total # the variable total should be converted to a string using .to_s
+    return "You have a total of" + total # Space after 'of' AND the variable total should be converted to a string using .to_s
   end
 end
 ```
