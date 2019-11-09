@@ -6,5 +6,5 @@ class Card
     @suit = suit
     @value = value;
   end
-  
+
 end

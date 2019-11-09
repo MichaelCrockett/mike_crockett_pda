@@ -7,7 +7,7 @@
 class CardGame
 
 
-  def checkforAce(card)
+  def checkforAce(card) #Ruby should be snake-case
     if card.value = 1 #should be double equals
       return true
     else
